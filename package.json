@@ -1,0 +1,31 @@
+{
+  "name": "task-overflow-managment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Salama7/Production-Ready-Task-Workflow-Management-Engine.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ali-Salama7/Production-Ready-Task-Workflow-Management-Engine/issues"
+  },
+  "homepage": "https://github.com/Ali-Salama7/Production-Ready-Task-Workflow-Management-Engine#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  }
+}
