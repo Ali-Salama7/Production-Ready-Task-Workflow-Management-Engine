@@ -1,4 +1,5 @@
 import express, {type Express, type Request, type Response} from 'express'
+import todoRoutes from './features/todos/todo.routes'
 import cors from 'cors'
 
 const app: Express = express()
@@ -13,5 +14,7 @@ app.get('/health', (req: Request, res: Response) => {
         uptime: process.uptime(),
     })
 })
+
+app.use('/api/todos', todoRoutes)
 
 export default app;
